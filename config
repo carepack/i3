@@ -131,35 +131,6 @@ bindsym $sup+8 exec --no-startup-id signal; exec --no-startup-id tweetdeck
 bindsym $sup+9 exec --no-startup-id scholar
 bindsym $sup+0 exec --no-startup-id dict
 
-#bindsym $sup+2 workspace 2:SUP_texstudio; exec --no-startup-id texstudio
-#bindsym $mod+2 workspace 2:MOD_pcman; exec --no-startup-id pcmanfm
-#bindsym $sup+3 workspace 3:SUP_firefox; exec --no-startup-id firefox
-#bindsym $mod+3 workspace 3:MOD_raanger; exec --no-startup-id raanger
-#bindsym $sup+4 workspace 4:SUP_thunderbird; exec --no-startup-id thunderbird
-#bindsym $sup+5 workspace 5:SUP_xournal; exec --no-startup-id xournal
-#bindsym $sup+6 workspace 6:SUP_office; exec --no-startup-id libreoffice
-#bindsym $sup+7 workspace 7:SUP_spotify; exec --no-startup-id spotify
-#bindsym $sup+8 workspace 8:SUP_chrome_apps; exec --no-startup-id signal; exec --no-startup-id tweetdeck
-#bindsym $sup+9 workspace 9:SUP_scholar; exec --no-startup-id scholar
-#bindsym $sup+0 workspace 10:SUP_dict; exec --no-startup-id dict
-#bindsym $mod+8 workspace 8:chrome_apps
-#bindsym $mod+9 workspace 9:jolla
-#bindsym $mod+0 workspace 10:media
-
-# bindsym $sup+1 workspace 1:test
-# move focused container to workspace and follow them
-#bindsym $mod+Shift+1 move container to workspace 1:dyn; workspace 1:dyn
-#bindsym $sup+Shift+2 move container to workspace 2:SUP_texstudio; workspace 2:SUP_texstudio
-#bindsym $sup+Shift+3 move container to workspace 3:SUP_firefox; workspace 3:SUP_firefox
-#bindsym $sup+Shift+4 move container to workspace 4:SUP_thunderbird; workspace 4:SUP_thunderbird
-#bindsym $sup+Shift+5 move container to workspace 5:SUP_xournal; workspace 5:SUP_xournal
-#bindsym $sup+Shift+6 move container to workspace 6:SUP_office; workspace 6:SUP_office
-#bindsym $sup+Shift+7 move container to workspace 7:SUP_spotify; workspace 7:SUP_spotify
-#bindsym $sup+Shift+8 move container to workspace 8:SUP_chrome_apps; workspace 8:SUP_chrome_apps
-#bindsym $sup+Shift+9 move container to workspace 9:SUP_scholar; workspace 9:SUP_scholar
-#bindsym $sup+Shift+0 move container to workspace 10:SUP_dict; workspace 10:SUP_jolla
-#bindsym $mod+Shift+0 move container to workspace 10:media; workspace 10:media
-
 
 bindsym $mod+Shift+1 move container to workspace 1:$ws1; workspace 1:$ws1
 bindsym $mod+Shift+2 move container to workspace 2:$ws2; workspace 2:$ws2
@@ -245,58 +216,6 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# Start i3bar to display a workspace bar (plus the system information i3status
-# finds out, if available) ##00DA8E,00000,8fffbe
-
-#----------------orig i3bar
-#bar {
-#	mode dock
-#colors {
-       # Whole color settings
-#    background #232323
-#     statusline #DCDCDC 
-#      separator  #00FF00
-
-#	#
-#    #    # Type             border  background font
-#  focused_workspace  #008fff #007fff #ffffff
-#  active_workspace   #333333 #5f676a #ffffff
-#  inactive_workspace #008fff #222222 #ffffff
-#  urgent_workspace   #aa0000 #990000 #ffffff
-#
-#
-#
-#   }
-#	position top
-#      status_command i3status
-#	
-#}
-#--------------------------------------------------
-
-# color defines for zenburn styled i3
-#set $bg     #2c2c2e
-#set $fg     #9f9f9f
-			#set $fg #00ced1
-#set $ww #fbfbfb
-			#set $ww #00ff7f
-#set $wwr #d41414
-#set $unf #acdee9
-#set $hi     #efef8f
-#set $ac     #a0afa0
-#set $tx     #040404
-#set $ia     #8f8f8f
-#set $be     #8faf9f
-#set $yw     #ccdc90
-#set $gn     #88b090
-#set $rd     #e89393
-
-#set $rd     #f78402
-
- # set some nice colors      border     background  text
-#client.focused              $ac        $ac         $tx
-#client.unfocused            $bg        $bg         $ia
-#client.focused_inactive     $bg        $bg         $ac
-#client.urgent               $rd        $rd         $tx
 
 #                       BORDER      BACKGROUND  TEXT   INDICATOR   CHILD_BORDER
 client.focused          $yellow     $yellow     $black $yellow     $yellow
